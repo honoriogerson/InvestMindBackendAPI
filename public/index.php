@@ -1,8 +1,4 @@
 <?php
-// Força a exibição de erros do PHP na resposta
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 // 1. Configurações de CORS para aceitar conexões do app mobile
 header("Access-Control-Allow-Origin: *");
